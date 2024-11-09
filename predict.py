@@ -8,7 +8,7 @@ device = "cpu"
 model = YOLOv10("runs/detect/train/weights/best.pt")  # best.pt
 model.to(device)
 
-test_folder = "dataset/fish/ImageSets/images/val" # /home/data/test
+test_folder = "dataset/ImageSets/images/val" # /home/data/test
 image_paths = glob.glob(os.path.join(test_folder, "*.*"))
 
 #创建输出目录

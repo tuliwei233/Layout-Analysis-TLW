@@ -57,8 +57,8 @@ if __name__ == "__main__":
     # 1、需要转化的类别
     classes = ['Header', 'Title', 'Text', 'Figure','Foot']
     # 2、voc格式的xml标签文件路径
-    xml_files1 = r'D:\Downloads\yolov10-main\yolov10-main\dataset\fish\Annotations'
+    xml_files1 = r'dataset/fish/Annotations'
     # 3、转化为yolo格式的txt标签文件存储路径
-    save_txt_files1 = r'D:\Downloads\yolov10-main\yolov10-main\dataset\fish\labels'
+    save_txt_files1 = r'dataset/fish/labels'
 
     convert_annotation(xml_files1, save_txt_files1, classes)

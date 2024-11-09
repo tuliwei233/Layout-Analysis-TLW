@@ -4,7 +4,7 @@ from tqdm import tqdm
 def split_img(img_path, label_path, split_list):
     try:
         # 目标文件夹路径（确保路径分隔符一致）
-        Data = r'dataset/fish/ImageSets'
+        Data = r'dataset/ImageSets'
 
         # 创建数据集路径
         train_img_dir = os.path.join(Data, 'images', 'train')
@@ -65,7 +65,7 @@ def toLabelPath(img_path, label_path):
     return os.path.join(label_path, label)
 
 if __name__ == '__main__':
-    img_path = r'D:\Downloads\yolov10-main\yolov10-main\dataset\fish\images'
-    label_path = r'D:\Downloads\yolov10-main\yolov10-main\dataset\fish\labels'
+    img_path = r'dataset/images'
+    label_path = r'dataset/labels'
     split_list = [0.7, 0.2, 0.1]
     split_img(img_path, label_path, split_list)

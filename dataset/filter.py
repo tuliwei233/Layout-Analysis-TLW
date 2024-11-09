@@ -1,8 +1,8 @@
 import os
 
 # 图片和标签文件夹路径
-img_path = 'D:\Downloads\yolov10-main\yolov10-main\dataset\\fish\images'
-label_path = 'D:\Downloads\yolov10-main\yolov10-main\dataset\\fish\labels'
+img_path = 'dataset/fish/images'
+label_path = 'dataset/fish/labels'
 
 # 定义可接受的图片格式
 image_extensions = {'.jpg', '.jpeg', '.png', '.bmp'}

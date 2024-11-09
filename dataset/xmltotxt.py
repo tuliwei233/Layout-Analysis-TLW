@@ -53,12 +53,12 @@ def convert_annotation(xml_files_path, save_txt_files_path, classes):
 
 
 if __name__ == "__main__":
-    # 把forklift_pallet的voc的xml标签文件转化为yolo的txt标签文件
+    # voc的xml标签文件转化为yolo的txt标签文件
     # 1、需要转化的类别
     classes = ['Header', 'Title', 'Text', 'Figure','Foot']
     # 2、voc格式的xml标签文件路径
-    xml_files1 = r'dataset/fish/Annotations'
+    xml_files1 = r'dataset/Annotations'
     # 3、转化为yolo格式的txt标签文件存储路径
-    save_txt_files1 = r'dataset/fish/labels'
+    save_txt_files1 = r'dataset/labels'
 
     convert_annotation(xml_files1, save_txt_files1, classes)

@@ -1,7 +1,7 @@
 #path: D:/TestMain/yolov9-main/datasets/fish # dataset root dir
-train: D:\Downloads\yolov10-main\yolov10-main\dataset\fish\ImageSets\images\train  # train images (relative to 'path') 118287 images
-val: D:\Downloads\yolov10-main\yolov10-main\dataset\fish\ImageSets\images\val  # val images (relative to 'path') 5000 images
-test: D:\Downloads\yolov10-main\yolov10-main\dataset\fish\ImageSets\images\test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: dataset\ImageSets\images\train  # train images (relative to 'path') 118287 images
+val: dataset\ImageSets\images\val  # val images (relative to 'path') 5000 images
+test: dataset\ImageSets\images\test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 
 # Classes
